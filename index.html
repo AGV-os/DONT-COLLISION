@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <button style="width: 50px; height: 50px; border-radius: 100px; background: #600000; border: 2px solid black; z-index: 10; position: fixed;" onclick="pause()" class="paus"><img src="img/paus.png" width="100%" height="100%"></button>
+  
+  <p id="time">время: 0</p>
+  
+  <img src="img/paus.png" width="500px" height="500px" style="position: fixed; left: -40px; display: block; top: 0px; opacity: 0%;" id="pausEff">
+  
+  
+  
+   <div style="position: fixed;" id="bgsmall">
+    
+    <img class="bg ones" src="img/smallbg.png">
+    
+    <img class="bg twos" src="img/smallbg.png">
+    
+    <img class="bg threes" src="img/smallbg.png">
+    
+  </div>
+  
+  
+  
+  <div style="position: fixed;" id="bgbig">
+    
+    <img class="bg oneb" src="img/bigbg.png">
+    
+    <img class="bg twob" src="img/bigbg.png">
+    
+    <img class="bg threeb" src="img/bigbg.png">
+    
+  </div>
+  
+ 
+  
+  <div id="player" class="player">
+    
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
