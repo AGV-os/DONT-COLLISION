@@ -87,7 +87,7 @@ function death() {
   rs.position = 'absolute'
   rs.left = '50%'
   rs.top = "50%"
-  res.src = "img/res.png"
+  res.src = "res.png"
   rs.width = '500px'
   rs.height = '500px'
   rs.marginLeft = "-250px"
