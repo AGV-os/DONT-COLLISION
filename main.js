@@ -19,6 +19,18 @@ function col(element1, element2) {
     y2 + height2 < y1);
 }
 
+
+function start() {
+  if (localStorage.getItem('record') != 'null') {
+    rec.innerText = 'рекорд: ' + localStorage.getItem('record')
+  } else {
+    rec.innerText = 'рекорд: 0'
+  }
+}
+
+window.onload = start()
+
+
 function pause() {
   if (mode == "life") {
     let p = document.getElementById('pausEff')
