@@ -112,6 +112,11 @@ function death() {
   
   let tlbl = document.createElement('p')
   let ts = tlbl.style
+
+
+  if (time > Number(localStorage.getItem('record'))) {
+    localStorage.setItem('record', time)
+  }
   
   ts.fontWeight = "bold"
   ts.position = 'absolute'
