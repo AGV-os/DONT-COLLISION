@@ -63,3 +63,9 @@ body {
     
 }
 
+#record{
+    position: fixed;
+    color: gold;
+    top: 200px;
+    z-index: 100;
+}
